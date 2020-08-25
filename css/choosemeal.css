@@ -1,0 +1,107 @@
+.col-lg-3 {
+    padding: 0px;
+}
+
+#saagimage {
+    background-image: url("../images/saagaloo.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#pastaimage {
+    background-image: url("../images/pastapeas.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#saladimage {
+    background-image: url("../images/salad.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.allergens {
+    font-family: 'tiresias-ital', sans-serif;
+    font-size: 0.8em;
+}
+
+.mealcard {
+    width: 100%;
+    height: auto;
+    background-color: #fafafa;
+    text-align: center;
+    margin-bottom: 40px;
+    -webkit-box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.5);
+}
+
+.mealcard h2 {
+    text-align: left;
+    color: #78c828;
+    padding-top: 5px;
+    font-size: 1.3em;
+    padding: 20px;
+}
+
+.mealcard p {
+    text-align: left;
+    color: #401e07;
+    clear: both;
+    padding: 0px 20px 0px 20px;
+}
+
+
+/*start buttons */
+
+input[type="radio"][name="mealchoice"] {
+    display: none;
+}
+
+.mealcard label {
+    width: 100px;
+    background-color: #f59030;
+    font-family: 'tiresias-reg', sans-serif;
+    color: #fafafa;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    padding: 3px 0px 3px 0px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+}
+
+.mealcard label:hover {
+    background-color: #bc7831;
+}
+
+
+/* Clicking a label will select its corresponding hidden radio button
+   We can select that radio buttons sibling label and style it. */
+
+input[type="radio"][name="mealchoice"]:checked+label {
+    background-color: #78c828;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,71 @@
+.form {
+    float: left;
+}
+
+.formright {
+    float: left;
+}
+
+.fieldstyle {
+    width: 260px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    background: #fafafa;
+    font-family: 'tiresias-reg', sans-serif;
+    color: #401e07;
+    border-style: none;
+    padding-left: 10px;
+    border-radius: 50px 50px 50px 50px;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.fieldlabel {
+    font-family: 'tiresias-reg', sans-serif;
+    text-align: left;
+    margin-left: 12px;
+    color: #401e07;
+}
+
+.checkoutheadings {
+    color: #f59030;
+    font-size: 1.5em;
+    margin-left: 12px;
+    margin-bottom: 30px;
+}
+
+.checkoutsubmit {
+    margin-top: 190px;
+    color: #401e07;
+}
+
+#totaltitle {
+    color: #78c828;
+}
+
+#cardexpiry {
+    width: 190px;
+    float: left;
+}
+
+#ccv {
+    width: 50px;
+    float: left;
+}
+
+#totalsubmit {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.cardexpiryclear {
+    clear: both;
+}
+
+.checkoutbottommargin {
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 576px) {}

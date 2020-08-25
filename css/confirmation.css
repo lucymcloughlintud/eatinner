@@ -1,0 +1,30 @@
+.mealcard img {
+    width: 80px;
+    height: auto;
+    float: right;
+    margin: 20px;
+}
+
+.confirmationheadings {
+    color: #f59030;
+    margin-bottom: 20px;
+}
+
+#mealtype {
+    color: #401e07;
+    font-size: 2em;
+    margin: 10px;
+}
+
+#mealtypep {
+    margin: 10px;
+}
+
+#firstmeal {
+    color: #401e07;
+    margin: 20px;
+}
+
+#date {
+    color: #f59030;
+}

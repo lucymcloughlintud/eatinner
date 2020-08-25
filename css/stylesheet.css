@@ -1,0 +1,464 @@
+@font-face {
+    font-family: 'tiresias-reg';
+    src: url('Tiresias_Infofont-webfont.eot');
+    src: url('Tiresias_Infofont-webfont.eot?#iefix') format('embedded-opentype'), url('Tiresias_Infofont-webfont.woff2') format('woff2'), url('Tiresias_Infofont-webfont.woff') format('woff'), url('Tiresias_Infofont-webfont.ttf') format('truetype'), url('Tiresias_Infofont-webfont.svg#tiresias_infofontregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'tiresias-ital';
+    src: url('Tiresias_Infofont_Italic-webfont.eot');
+    src: url('Tiresias_Infofont_Italic-webfont.eot?#iefix') format('embedded-opentype'), url('Tiresias_Infofont_Italic-webfont.woff2') format('woff2'), url('Tiresias_Infofont_Italic-webfont.woff') format('woff'), url('Tiresias_Infofont_Italic-webfont.ttf') format('truetype'), url('Tiresias_Infofont_Italic-webfont.svg#tiresias_infofontitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'metropolis';
+    src: url('metropolis-black-webfont.woff2') format('woff2'), url('metropolis-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* revist this to fix padding around edges */
+
+.container-fluid {
+    padding: 0;
+}
+
+html,
+body {
+    background-color: #fafae6;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'metropolis', sans-serif;
+}
+
+p {
+    font-family: 'tiresias-reg', sans-serif;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+ol {
+    color: #fafafa;
+    font-family: 'tiresias-ital', sans-serif;
+    list-style: none;
+}
+
+video:focus {
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/* header */
+
+#header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #fafafa;
+    color: #401e07;
+    position: fixed;
+    z-index: 10;
+    text-align: center;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+#logo {
+    width: 100px;
+    height: auto;
+}
+
+.topmenu {
+    padding-top: 20px;
+    font-family: 'tiresias-reg', sans-serif;
+}
+
+.topmenu li {
+    padding-right: 50px;
+}
+
+.topmenu a {
+    color: #401e07;
+}
+
+.topmenu a:hover {
+    color: #78c828;
+}
+
+#regbutton a {
+    color: #f59030;
+}
+
+#regbutton a:hover {
+    color: #78c828;
+}
+
+#headerimage {
+    position: static;
+    background-image: url("../images/headerimage.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: #fafafa;
+    text-shadow: 2px 2px 8px #401e07;
+    padding-bottom: 120px;
+    z-index: 2;
+}
+
+#headerimage h1 {
+    text-align: center;
+    margin-top: 280px;
+    margin-bottom: 50px;
+}
+
+
+/* end header */
+
+
+/* feature div */
+
+#featurediv {
+    margin-top: 40px;
+    position: static;
+    background-image: url("../images/featurebackground.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 50px;
+    color: #fafafa;
+    padding-top: 50px;
+}
+
+.featurerow {
+    text-align: center;
+}
+
+.featurecard {
+    background: #fafafa;
+    color: #401e07;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.featurecard h2 {
+    font-size: 1.5em;
+    font-family: 'metropolis', sans-serif;
+    color: #401e07;
+    padding-top: 5px;
+}
+
+.featurecard p {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.featurecard img {
+    width: 100px;
+    height: 100px;
+}
+
+
+/* end feature div */
+
+
+/* buttons */
+
+.buttoncenter {
+    text-align: center;
+}
+
+.ctabutton {
+    width: 150px;
+    background-color: #78c828;
+    font-family: 'tiresias-reg', sans-serif;
+    color: #fafafa;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 3px 0px 3px 0px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+}
+
+.ctabutton:hover {
+    background-color: #78A037;
+}
+
+.ctabutton:active {
+    background-color: #78c828;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.5);
+}
+
+.ctabutton:focus {
+    outline: none;
+}
+
+
+/* end buttons */
+
+
+/* social div */
+
+#socialdiv {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+#instagramembed {
+    background-color: #78c828;
+    padding: 10px 10px 20px 10px;
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+#videodiv {
+    margin: -50px;
+}
+
+#cookingvideo {
+    width: 100%;
+    height: auto;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+#videodetail {
+    background-color: #f59030;
+    margin-top: -6px;
+    padding: 0px 20px 5px 20px;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+#videodetailinner {
+    background-color: #fafafa;
+}
+
+#videodetailinner p {
+    padding: 20px;
+    color: #401e07;
+}
+
+#socialcta {
+    margin-top: 30px;
+    text-align: center;
+    color: #401e07;
+}
+
+
+/* end social div */
+
+
+/* bottom cta div */
+
+#bottomctadiv {
+    text-align: center;
+    position: static;
+    background-image: url("../images/bottomctabackground.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: #fafafa;
+    text-shadow: 2px 2px 8px #401e07;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+/* end bottom cta div */
+
+#prefooterlinks {
+    text-align: center;
+    color: #401e07;
+    padding-bottom: 50px;
+}
+
+.prefootertoppadding {
+    padding-top: 50px;
+}
+
+.sociallink {
+    width: 50px;
+    height: auto;
+    margin: 10px 20px 0px 20px;
+}
+
+#newsletterform {
+    font-family: 'tiresias-reg', sans-serif;
+    color: #401e07;
+    width: 100%;
+    text-align: left;
+}
+
+#emailentry {
+    background: #fafafa;
+    font-family: 'tiresias-reg', sans-serif;
+    color: #401e07;
+    border-style: none;
+    padding-left: 10px;
+    border-radius: 50px 0px 0px 50px;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    width: 76%;
+}
+
+#emailsubmit {
+    background-color: #78c828;
+    color: #fafafa;
+    border-style: none;
+    border-radius: 0px 50px 50px 0px;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    width: 22%;
+    margin-left: -5px;
+}
+
+#emailsubmit:focus {
+    outline: none;
+}
+
+.emaillabel {
+    text-align: left;
+    margin-bottom: 2px;
+    margin-left: 12px;
+}
+
+
+/* end bottom cta div */
+
+
+/* footer */
+
+#footer {
+    font-family: 'tiresias-reg', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #78c828;
+    color: #fafafa;
+    z-index: 1;
+}
+
+#footer li {
+    display: block;
+}
+
+#footer p {
+    font-size: 0.8em;
+}
+
+.footerlisthead {
+    font-family: "metropolis", sans-serif;
+}
+
+#footer a {
+    color: #fafafa;
+}
+
+#footer a:hover {
+    color: #401e07;
+}
+
+
+/* end  footer */
+
+
+/* 576px is breakpoint for sm col in bootstrap */
+
+@media only screen and (max-width: 992px) {
+    #instagramembed {
+        width: 60%;
+    }
+    #newsletterform {
+        width: 50%;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #instagramembed {
+        width: 80%;
+    }
+    #newsletterform {
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #headerimage {
+        padding-top: 100px;
+    }
+    .topmenu {
+        padding-top: 8px;
+        display: block;
+    }
+    #logo {
+        width: 70px;
+        height: auto;
+        margin-left: -6px;
+    }
+    #regbutton {
+        margin-top: -25px;
+        margin-bottom: -20px;
+    }
+    #footer {
+        text-align: center;
+    }
+    #instagramembed {
+        width: 100%;
+    }
+    #newsletterform {
+        width: 90%;
+        margin: auto;
+    }
+    #footer li {
+        margin-left: -50px;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .topmenu {
+        text-align: left;
+    }
+    li {
+        display: inline;
+    }
+}

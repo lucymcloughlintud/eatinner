@@ -1,0 +1,166 @@
+.breadcrumbmenu {
+    color: #401e07;
+    padding-top: 20px;
+    font-family: 'tiresias-reg', sans-serif;
+}
+
+.breadcrumbmenu li {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.lastbreadcrumb {
+    margin-bottom: -20px;
+}
+
+.breadcrumbhighlight {
+    font-family: "metropolis", sans-serif;
+    color: #78c828;
+}
+
+#breadcrumbheading {
+    background-color: #fafae6;
+}
+
+#breadcrumbheading h1 {
+    color: #401e07;
+    text-align: center;
+    font-size: 2.2em;
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+
+.menucard {
+    background-color: #fafafa;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 30px;
+    -webkit-box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.5);
+}
+
+.menucard h2 {
+    text-align: left;
+    color: #401e07;
+    padding-top: 5px;
+}
+
+.menucard p {
+    text-align: left;
+    color: #401e07;
+    clear: both;
+    padding-top: 30px;
+}
+
+.menucard img {
+    width: 80px;
+    height: auto;
+    float: right;
+}
+
+
+/*start buttons */
+
+input[type="radio"][name="menuchoice"] {
+    display: none;
+}
+
+.menucard label {
+    width: 100px;
+    background-color: #f59030;
+    font-family: 'tiresias-reg', sans-serif;
+    color: #fafafa;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.2em;
+    padding: 3px 0px 3px 0px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+}
+
+.menucard label:hover {
+    background-color: #bc7831;
+}
+
+
+/* Clicking a label will select its corresponding hidden radio button
+   We can select that radio buttons sibling label and style it. */
+
+input[type="radio"][name="menuchoice"]:checked+label {
+    background-color: #78c828;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.5);
+}
+
+input[type="radio"][name="mealnumber"] {
+    display: none;
+}
+
+.servings label {
+    width: 40px;
+    background-color: #f59030;
+    font-family: 'tiresias-reg', sans-serif;
+    color: #fafafa;
+    text-align: center;
+    margin: 10px;
+    ;
+    font-size: 1.2em;
+    padding: 3px 0px 3px 0px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+}
+
+.servings label:hover {
+    background-color: #bc7831;
+}
+
+.servings input[type="radio"][name="mealnumber"]:checked+label {
+    background-color: #78c828;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+/* end buttons */
+
+.servings {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #401e07;
+}
+
+.servings p {
+    font-family: "metropolis", sans-serif;
+    font-size: 1.2em;
+}
+
+.signupcontinue {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 576px) {
+    .breadcrumbmenu li {
+        margin-top: -5px;
+        margin-left: -50px;
+        display: block;
+    }
+    #breadcrumbheading h1 {
+        margin-top: 280px;
+    }
+}

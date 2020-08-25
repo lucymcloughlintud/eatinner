@@ -1,0 +1,60 @@
+#tacomealdiv {
+    text-align: center;
+}
+
+#tacomeal {
+    width: 400px;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+#facebooklogin {
+    width: 300px;
+    background-color: #2277CD;
+    color: #fafafa;
+    text-align: left;
+    padding-left: 20px;
+}
+
+#facebooklogin:hover {
+    background-color: #1b5ea1;
+}
+
+#googlelogin {
+    width: 300px;
+    background-color: #fafafa;
+    color: #2277CD;
+    text-align: left;
+    padding-left: 23px;
+}
+
+#googlelogin:hover {
+    background-color: #dfdfdf;
+}
+
+.socialloginicon {
+    width: 22px;
+    margin-right: 15px;
+    margin-bottom: 3px;
+    margin-top: -1px;
+}
+
+.registrationheadings {
+    color: #f59030;
+    font-size: 1.5em;
+}
+
+.socialregisterbutton {
+    margin-bottom: -20px;
+}
+
+#registrationblock1 {
+    text-align: center;
+}
+
+#registrationblock2 {
+    margin-top: 80px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: 'tiresias-reg', sans-serif;
+}

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>my plan | eatinner</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <!-- bootstrap link below -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="css/signup.css">
+    <link rel="stylesheet" type="text/css" href="css/choosemeal.css">
+    <link rel="stylesheet" type="text/css" href="css/confirmation.css">
+    <link rel="stylesheet" type="text/css" href="css/myplan.css">
+
+    <script src="js/javascript.js"></script>
+
+</head>
+
+
+<body>
+
+    <!-- header div -->
+    <div class="container-fluid" id="header">
+        <div class="row justify-content-center">
+            <div class="col-sm-1">
+                <a href="index.html">
+                    <img id="logo" src="images/logo.png" alt="eatinner logo">
+                </a>
+            </div>
+            <div class="col-sm-8 topmenu">
+                <ul>
+                    <li><a href="myplan.html"><span id="breadcrumbcolour">my plan</span></a></li>
+                    <li><a href="#">my schedule</a></li>
+                    <li><a href="myrecipes.html">my recipes</a></li>
+                    <li><a href="socialfeed.html">my social feed</a></li>
+                </ul>
+            </div>
+
+            <div class="col-sm-2 topmenu" id="regbutton">
+                <img id="accounticon" src="images/account.png" alt="chef account icon">
+                <a href="#">
+                    <p>welcome user!</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- end header div-->
+
+    <div class="row"></div>
+
+    <!-- start body -->
+
+    <div class="container-fluid" id="breadcrumbheading">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1></h1>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-lg-1"></div>
+
+            <div class="col-lg-3">
+
+                <div class="accountmanagement">
+
+                    <h2>current plan</h2>
+                    <form action="#">
+                        <button type="submit" class="ctabutton accountmanagementbutton">change</button>
+                    </form>
+                </div>
+
+            </div>
+
+            <div class="col-lg-1"></div>
+
+
+            <div class="col-lg-3 mealcard">
+                <img src="images/meatmeal.png" alt="plate of steak, potatoes, and green beans">
+                <h2 id="mealtype">original</h2>
+                <p id="mealtypep">A delicious variety of meat, fish and vegetable based proteins, combined with seasonal produce. Yum!</p>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <!-- source for code to select only one button using html/css https://stackoverflow.com/questions/50310426/selecting-only-one-button-in-a-set-->
+            <div class="col-lg-1"></div>
+            <div class="col-lg-3">
+
+                <div class="accountmanagement">
+
+                    <h2>upcoming meals</h2>
+                    <form action="#">
+                        <button type="submit" class="ctabutton accountmanagementbutton">change</button>
+                    </form>
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-1"></div>
+
+
+            <div class="col-lg-3 mealcard">
+                <a href="samplerecipe.html">
+                    <div id="pastaimage"></div>
+                </a>
+                <a href="samplerecipe.html">
+                    <h2>browned butter & lemon pasta with garden peas</h2>
+                </a>
+                <a href="samplerecipe.html">
+                    <p>Rich yet Summery, this dish tickles your tastebuds with nutty brown butter and zesty lemon</p>
+                </a>
+                <p class="allergens">contains: gluten, dairy</p>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+    <!-- end body-->
+
+
+    <!-- footer div -->
+    <div class="container-fluid " id="footer">
+        <div class="row justify-content-center">
+            <div class="col-md-2">
+                <ul>
+                    <li class="footerlisthead"><a href="#">about us</a>
+                    </li>
+                    <li><a href="#">the eatinner story</a>
+                    </li>
+                    <li><a href="#">eatinner group</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+
+                <ul>
+                    <li class="footerlisthead"><a href="#">contact us</a></li>
+                    <li><a href="#">faq</a>
+                    </li>
+                    <li><a href="#">careers</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <ul>
+                    <li class="footerlisthead"><a href="#">accessibility</a></li>
+                    <li><a href="#">terms and conditions</a>
+                    </li>
+                    <li><a href="#">privacy policy</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-2">
+                <ul>
+                    <li class="footerlisthead">eatinner.com</li>
+                    <li>&copy; 2020</li>
+                    <li>Lucy McLoughlin</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- end footer div -->
+
+
+
+    <!-- optional javascript from https://getbootstrap.com/docs/4.3/getting-started/introduction/#starter-template -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+
+</body>
+
+</html>

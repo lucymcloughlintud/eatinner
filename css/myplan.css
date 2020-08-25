@@ -1,0 +1,129 @@
+#accounticon {
+    width: 50px;
+    height: auto;
+    float: left;
+    margin-top: -10px;
+}
+
+#breadcrumbcolour {
+    color: #78c828;
+    font-family: 'metropolis', sans-serif;
+}
+
+.accountmanagement {
+    color: #401e07;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.accountmanagementbutton {
+    margin-top: 40px;
+}
+
+.mealcard p {
+    padding-bottom: 20px;
+}
+
+#searchdiv {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'tiresias-reg', sans-serif;
+}
+
+.recipecard {
+    margin-bottom: 50px;
+    width: 100%;
+    height: auto;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.socialmargin {
+    margin-bottom: 50px;
+}
+
+#suggestionbox {
+    background-color: #fafafa;
+    width: auto;
+    height: 200px;
+    padding: 20px;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+#suggestionbox h2 {
+    color: #401e07;
+    float: left;
+    margin-bottom: 20px;
+    font-size: 1.6em;
+}
+
+#suggestionbox img {
+    width: 40px;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#seemore {
+    color: #f59030;
+    float: right;
+    margin-top: 5px;
+}
+
+#user1,
+#user2 {
+    clear: both;
+}
+
+.user {
+    float: left;
+    color: #401e07;
+    margin-top: 20px;
+}
+
+.follow {
+    float: right;
+    color: #78c828;
+    margin-top: 20px;
+}
+
+#share {
+    background-color: #fafafa;
+    text-align: center;
+    width: auto;
+    height: 220px;
+    padding: 20px;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+#share h2 {
+    color: #401e07;
+    text-align: left;
+    font-size: 1.6em;
+}
+
+#share h3 {
+    color: #401e07;
+    font-size: 1.3em;
+}
+
+#share img {
+    width: 80px;
+    height: auto;
+}
+
+#unbox,
+#meal {
+    width: 120px;
+    float: left;
+    margin: 20px;
+    margin-left: 35px;
+}
